@@ -1,0 +1,249 @@
+/* Start of CSS */
+
+/* Start of Container */
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+/* All backgrounds will be the same background url image */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/thumb-1920-480530.png");
+}
+
+/* navbar section */
+.navbar {
+  border-style: double;
+  border-color: #57a89b;
+  width: 45%;
+  display: block;
+  margin: auto;
+}
+
+#menu {
+  display: block;
+  margin: auto;
+}
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+}
+#links {
+  color: #777;
+  text-decoration: #666;
+}
+.lists {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+span {
+  font-family: "Montserrat", sans-serif;
+  color: #777;
+}
+
+#logo {
+  font-family: "Montserrat", sans-serif;
+  background: #57a89b;
+  color: #666;
+  border-radius: 15px;
+  width: 250px;
+  height: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  display: block;
+  margin: auto;
+}
+/* jumbotron with content */
+hr {
+  height: 10px;
+}
+#logo a {
+  font-family: "Montserrat", sans-serif;
+}
+h3 a {
+  color: #777;
+}
+.jumbotron {
+  margin-top: 10px;
+  height: 700px;
+  width: 100%;
+  float: left;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-style: double;
+  border-color: #57a89b;
+}
+#space {
+  margin-left: 35px;
+}
+.profileimg {
+  margin-right: 15px;
+  float: left;
+  word-wrap: normal;
+  border-style: double;
+  border-color: #57a89b;
+}
+.display-4 {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 25pt;
+  color: #57a89b;
+}
+/* Footer */
+.footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #57a89b;
+  height: 50px;
+}
+#taylorweb {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+/* Contact page */
+.btn {
+  background: #57a89b;
+}
+/* portfolio */
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 30px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 30px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+   padding: 15px;
+  margin-bottom: 0; 
+  font-weight: 300;
+  line-height: 30px; 
+  color: #fff;
+  text-align: center;
+  background: #57a89b;
+  border-bottom: 0;
+  display: block;
+  margin: auto;
+}
+.work a {
+  text-decoration: none;
+}
+#shift {
+  margin-left: 34px;
+}
+#email {
+  display: inline-block;
+  margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  .main-section,
+  .sidebar {
+    max-width: 100%;
+  }
+
+  main {
+    overflow: auto;
+  }
+
+  .work {
+    /* Box-model */
+    width: 47%;
+
+    /* Positioning */
+    margin-bottom: 10px;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+
+  .auth-image {
+    width: 50%;
+  }
+
+  .sidebar {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #masthead {
+    /* Positioning */
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  header .container {
+    padding: 0;
+  }
+
+  main.container {
+    padding-top: 0;
+  }
+
+  #logo,
+  .work,
+  .auth-image {
+    width: 100%;
+  }
+
+  nav {
+    /* Box-model */
+    width: 100%;
+
+    /* Positioning */
+    margin: 15px 0;
+
+    /* Typography */
+    text-align: center;
+  }
+
+  nav a {
+    /* Box-model */
+    width: 30%;
+    padding-left: 0;
+
+    /* Positioning */
+    margin-left: 0;
+  }
+}
