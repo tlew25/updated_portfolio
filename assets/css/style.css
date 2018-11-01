@@ -1,249 +1,229 @@
-/* Start of CSS */
+/* Master Portfolio CSS */
 
-/* Start of Container */
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
+/* background and containers */
+body{
+  background: url("../images/Technology-HD-Desktop-Wallpaper-23339.jpg");
 }
-
-/* All backgrounds will be the same background url image */
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 22px;
-  line-height: 34px;
-  color: #777;
-  background: url("../images/thumb-1920-480530.png");
+.container{
+  background: url("../images/giphy.gif");
+  height: 100px;
+  width: 85%;
+  margin-bottom: 10px;
 }
-
-/* navbar section */
-.navbar {
-  border-style: double;
-  border-color: #57a89b;
-  width: 45%;
-  display: block;
-  margin: auto;
-}
-
-#menu {
-  display: block;
-  margin: auto;
-}
-li {
-  text-decoration: none;
+.link-box{
   display: inline-block;
-  margin: auto;
+  border-radius: 100px;
+  margin-left: 15px;
 }
-#links {
-  color: #777;
-  text-decoration: #666;
+.link-box:hover{
+  box-shadow: 3px 3px 3px #eee;
+  margin-bottom: 30px;
+  cursor: pointer;
 }
-.lists {
-  text-align: center;
-  display: block;
-  margin: auto;
+/* jumbotron and content */
+.jumbotron {
+display: block;
+margin: auto;
+width: 65%;
+height: 175px;
+border-style: ridge;
+border-color: #000;
+border-radius: 10.5px;
 }
-span {
-  font-family: "Montserrat", sans-serif;
-  color: #777;
+.jumbotron:hover{
+  box-shadow: 15px 5px 5px #1537A0;
+  cursor: pointer;
 }
 
-#logo {
-  font-family: "Montserrat", sans-serif;
-  background: #57a89b;
-  color: #666;
-  border-radius: 15px;
-  width: 250px;
-  height: 70px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  line-height: 90px;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 0;
+.jumbotron-content {
+  background-color: #1537A0;
+display: block;
+margin: auto;
+border-style: solid;
+border-color: #eee;
+border-radius: 5px;
+width: 75%;
+height: 665px;
+}
+.jumbotron-content:hover{
+  box-shadow: 20px 20px 20px #1537A0;
+  cursor: pointer;
+}
+.jumbotron-fluid{
+  background: #000;
+  border-style: outset;
+  border-color:#1537A0;
+}
+/* hr lines */
+.my-4{
+  background-color: #eee;
   display: block;
   margin: auto;
+  width: 70%;
 }
-/* jumbotron with content */
-hr {
-  height: 10px;
+/* text tags */
+p{
+  /* font-family:'Patrick Hand', cursive; ; */
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #eee;
+  margin-left: 10px;
+  font-size: 17pt;
 }
-#logo a {
-  font-family: "Montserrat", sans-serif;
+a:hover{
+  text-decoration: none;
 }
-h3 a {
-  color: #777;
-}
-.jumbotron {
-  margin-top: 10px;
-  height: 700px;
-  width: 100%;
-  float: left;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-style: double;
-  border-color: #57a89b;
-}
-#space {
-  margin-left: 35px;
-}
+/* profile img */
 .profileimg {
+border-style: solid;
+border-color: #000;
+margin-left: 30px;
+margin-bottom: 15px;
+word-wrap: normal;
+}
+.profileimg:hover{
+  box-shadow: 10px 8px 8px #eee;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* text display */
+.display-4{
+text-align: left;
+font-family: "Audiowide", cursive;
+color: #eee;
+text-decoration: none;
+
+}
+.display-5 {
+margin-left: 10px;
+text-align: left;
+font-family: "Audiowide", cursive;
+font-size: 32pt;
+color: #eee;
+}
+.txt{
+  border-style: solid;
+  border-color: #eee;
+    border-radius: 3px;
+  background: #000;
+  margin-bottom: 10px;
+  margin-left: 15px;
   margin-right: 15px;
-  float: left;
-  word-wrap: normal;
-  border-style: double;
-  border-color: #57a89b;
 }
-.display-4 {
-  font-family: "Montserrat", sans-serif;
-  text-align: left;
-  font-size: 25pt;
-  color: #57a89b;
+.txt:hover{
+  box-shadow: 5px 5px 5px #eee;
+  margin-bottom: 5px;
+  cursor: pointer;
 }
-/* Footer */
-.footer {
-  padding: 30px 0;
-  clear: both;
-  font-size: 12px;
-  color: #fff;
-  color: #ccc;
-  text-align: center;
-  background: #666;
-  border-top: 8px solid #57a89b;
-  height: 50px;
+ul, li{
+  display: inline-block;
 }
-#taylorweb {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12pt;
+li, h5, #email{
+  font-family: "Audiowide", cursive;
+  color: #eee;
 }
-/* Contact page */
+#email{
+  display: inline-block;
+}
+label{
+  font-family: "Audiowide", cursive;
+  color: #eee;
+}
+/* form group */
+.form-group{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+input{
+  width: 50%;
+}
+/* button designs and placement */
 .btn {
-  background: #57a89b;
+margin: auto;
+margin-right: 15px;
+color: #000;
+font-family: "Audiowide", cursive;
+background-color: #eee;
 }
-/* portfolio */
+.button-group {
+margin-left: 540px;
+display: block;
+}
+.btn:hover{
+  background-color: #1537A0;
+  box-shadow: 5px 5px 5px #eee;
+  cursor: pointer;
+}
+#btn-submit{
+  margin-left: 15px;
+}
+
+/* links and functionality */
+
+/* footer and properties */
+.footer {
+font-family: "Audiowide", cursive;
+display: block;
+text-align: center;
+color: #eee;
+background-color: #1537A0;
+border-style: solid;
+border-color: #000;
+  border-radius: 5px;
+}
+.navbar {
+display: block;
+width: 55%;
+margin: auto;
+border-radius: 5px;
+
+}
+/* portfolio page */
 .work {
   position: relative;
-  float: left;
   width: 274px;
-  margin: 20px 0 30px;
   overflow: auto;
-}
-
-.work:nth-child(even) {
-  margin-right: 30px;
+  display: inline-flex;
 }
 
 .work img {
-  width: 100%;
+  width: 50%;
   border: 0 none;
-  opacity: 0.8;
-  border-radius: 15px;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.work img:hover{
+  box-shadow: 10px 8px 8px #eee;
+  margin-left: 15px;
+  cursor: pointer;
 }
 
-.work h3 {
+.work h4 {
   position: absolute;
-  bottom: 20px;
-  width: 100%;
+  width: 50%;
    padding: 15px;
   margin-bottom: 0; 
-  font-weight: 300;
-  line-height: 30px; 
+  font-family: "Audiowide", cursive;
   color: #fff;
   text-align: center;
-  background: #57a89b;
+  background: #000;
   border-bottom: 0;
   display: block;
-  margin: auto;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+.work h4:hover{
+  margin-left: 15px;
+  cursor: pointer;
 }
 .work a {
   text-decoration: none;
 }
-#shift {
-  margin-left: 34px;
-}
-#email {
-  display: inline-block;
-  margin: auto;
-}
-@media only screen and (max-width: 768px) {
-  .main-section,
-  .sidebar {
-    max-width: 100%;
-  }
+/* background for portfolio page */
+#new-background{
+  background: url("../images/Tech-Best-HD-Wallpaper-35694.jpg");
 
-  main {
-    overflow: auto;
-  }
-
-  .work {
-    /* Box-model */
-    width: 47%;
-
-    /* Positioning */
-    margin-bottom: 10px;
-  }
-
-  .work:nth-child(even) {
-    margin-right: 0;
-  }
-
-  .work:nth-child(odd) {
-    float: right;
-  }
-
-  .auth-image {
-    width: 50%;
-  }
-
-  .sidebar {
-    margin-bottom: 40px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #masthead {
-    /* Positioning */
-    position: static;
-    margin-bottom: 20px;
-  }
-
-  header .container {
-    padding: 0;
-  }
-
-  main.container {
-    padding-top: 0;
-  }
-
-  #logo,
-  .work,
-  .auth-image {
-    width: 100%;
-  }
-
-  nav {
-    /* Box-model */
-    width: 100%;
-
-    /* Positioning */
-    margin: 15px 0;
-
-    /* Typography */
-    text-align: center;
-  }
-
-  nav a {
-    /* Box-model */
-    width: 30%;
-    padding-left: 0;
-
-    /* Positioning */
-    margin-left: 0;
-  }
 }
