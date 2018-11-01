@@ -174,9 +174,10 @@ border-color: #000;
 }
 .navbar {
 display: block;
-width: 55%;
+width: 75%;
 margin: auto;
 border-radius: 5px;
+background-color: #000;
 
 }
 /* portfolio page */
@@ -226,4 +227,9 @@ border-radius: 5px;
 #new-background{
   background: url("../images/Tech-Best-HD-Wallpaper-35694.jpg");
 
+}
+/* js css */
+#demo{
+  font-family:"Audiowide", cursive;
+  font-size: 12pt;
 }
