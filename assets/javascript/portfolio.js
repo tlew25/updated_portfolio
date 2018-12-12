@@ -1,4 +1,9 @@
 // portfolio.js
 
-var d = new Date();
-document.getElementById("demo").innerHTML = d;
+
+
+function pageDate(){
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d;
+}
+pageDate();
